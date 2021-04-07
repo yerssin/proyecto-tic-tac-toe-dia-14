@@ -17,6 +17,7 @@ export function calculateWinner(squares) {
     }
     return null;
 }
+
 const squares = [
     null, null, null,
     'x', 'x', 'x',

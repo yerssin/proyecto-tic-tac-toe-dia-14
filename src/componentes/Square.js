@@ -5,9 +5,9 @@ import React from 'react';
 const style = {
     background: 'lightgray',
     border: '2px solid darkgray',
-    fontSize: '40px',
+    fontSize: '60px',
     cursor: 'pointer',
-
+    color: 'orange',
 }
 
 const Square = ({ value, onClick }) => (

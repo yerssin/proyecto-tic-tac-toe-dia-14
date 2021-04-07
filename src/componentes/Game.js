@@ -3,8 +3,13 @@ import { calculateWinner } from './helpers';
 import Board from './Board';
 
 const styles = {
+    width: '200px',
+    margin: '20px Auto',
+    color: "black",
+    fontSize: '17px',
 
-}
+
+};
 
 const Game = () => {
     const [board, setBoard] = useState(Array(9).fill(null));
@@ -22,13 +27,9 @@ const Game = () => {
         setXisNext(!xIsNext);
     }
 
-    const jumpTo = () => {
-
-    }
-
     const renderMoves = () => (
         <button onClick={() => setBoard(Array(9).fill(null))}>
-            Start Game
+            Iniciar Juego
         </button>
     )
 
@@ -36,12 +37,11 @@ const Game = () => {
         <>
             <Board squares={board} onClick={handleClick} />
             <div style={styles}>
-                <p>{winner ? 'winner: ' + winner : 'Next Player: ' + (xIsNext ? 'X' : 'O')}</p>
+                <p>{winner ? 'GANADOR: ' + winner : 'Es el turno de: ' + (xIsNext ? 'X' : 'O')}</p>
                 {renderMoves()}
 
             </div>
         </>
     )
 }
-
 export default Game;
