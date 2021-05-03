@@ -1,19 +1,20 @@
+
 import React from 'react';
 
-
-
 const style = {
-    background: 'lightgray',
+    background: 'black',
     border: '2px solid darkgray',
-    fontSize: '60px',
+    fontSize: '40px',
     cursor: 'pointer',
-    color: 'orange',
-}
+    outline: "none",
+    color: 'orange'
+
+
+};
 
 const Square = ({ value, onClick }) => (
     <button style={style} onClick={onClick}>
         {value}
-
     </button>
 );
 

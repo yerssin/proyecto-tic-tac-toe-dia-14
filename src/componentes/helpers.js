@@ -1,3 +1,4 @@
+
 export function calculateWinner(squares) {
     const lines = [
         [0, 1, 2],
@@ -17,9 +18,3 @@ export function calculateWinner(squares) {
     }
     return null;
 }
-
-const squares = [
-    null, null, null,
-    'x', 'x', 'x',
-    null, null, null
-];

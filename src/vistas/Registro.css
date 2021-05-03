@@ -1,0 +1,33 @@
+.cajaUsuarios {
+    background-color: rgb(252, 252, 252);
+    padding-top: 3px;
+    padding-bottom: 25px;
+  }
+  
+  h2,
+  h4 {
+    text-align: center;
+    color: rgb(255, 94, 0);
+  }
+  
+  .cajaUsuarios div {
+    text-align: center;
+  }
+  
+  .botones {
+    margin-top: 5px;
+  }
+  
+  .botones button {
+    background-color: rgb(7, 7, 10);
+    font-size: 30px;
+    padding: 10px 15px;
+    margin: 10px;
+  }
+  .x {
+    color: rgb(252, 117, 26);
+  }
+  
+  .o {
+    color: rgb(90, 243, 76);
+  }
